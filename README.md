@@ -1,36 +1,44 @@
-🧩 Checkers Game in C++
+# ♟️ Checker Game
 
-A simple yet functional Checkers (Dama) game built using C++ and the Raylib graphics library. This project features a classic two-player board game with the ability to save and load game states, making it easy to resume gameplay at any time.
-🎮 Features
+A sleek and simple terminal-based **Checker Game** built with C/C++. This project demonstrates core game logic, basic file handling for saving/loading, and uses a custom build system via `Makefile`.
 
-    🟦 Graphical Interface: Interactive visuals powered by Raylib
+---
 
-    👫 Two-Player Local Gameplay: Enjoy playing with a friend on the same machine
+## 📁 Project Structure
 
-    💾 Save and Load Game State: Save your game progress in saved_game.txt and load it to continue later
+```bash
+checker_game/
+│
+├── .qodo/               # IDE (Qodo) settings
+├── .vscode/             # VS Code project settings
+├── build/               # Compiled binaries & Makefile
+│   ├── Game.exe         # Game executable (Windows)
+│   └── Makefile         # Build rules
+├── include/             # Header files
+├── lib/                 # External libraries (if any)
+├── src/                 # Source code (.c / .cpp files)
+├── saved_game.txt       # Saved game data
+├── .gitignore           # Files/directories ignored by Git
 
-    🗂️ Organized Codebase: Separate src, include, and lib folders for better structure
+```
+🚀 Getting Started
+✅ Requirements
+C/C++ Compiler (g++, clang, or MSVC)
 
-    ✅ Easy Build Setup for Windows: Simple methods to get the game up and running on Windows
+make (Unix/Windows with MinGW)
 
-🧩 What is "Qorki" (ቆርኪ)?
+Terminal or Command Prompt
 
-Qorkis (Amharic: ቆርኪ) is the traditional Amharic word for Checkers pieces.
-🛠️ How to Build (Windows)
+🛠️ Build Instructions
+Clone and build the project:
 
-Before you start, make sure you have Raylib installed or included in your lib/ folder.
-🔹 Option 1: Using build.bat
+git clone https://github.com/your-username/checker_game.git
+cd checker_game
+make
 
-Run the batch script to automatically compile the game:
+Run the game:
 
-./build.bat
+./build/Game.exe   # Windows
+# OR
+./build/Game       # Linux/macOS
 
-🔹 Option 2: Manual Compilation
-
-Alternatively, you can compile the game manually using the following g++ command:
-
-g++ src\main.cpp -o build\Game.exe -O2 -Wall -Wno-missing-braces -I include -L lib -lraylib -lopengl32
-
-After building, you can run the game with:
-
-./build/Game.exe
