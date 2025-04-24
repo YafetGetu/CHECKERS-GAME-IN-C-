@@ -36,6 +36,9 @@ checker_game/
 
 ```
 🚀 Getting Started
+
+![image alt](https://github.com/YafetGetu/CHECKERS-GAME-IN-CPP/blob/9a0d75bb938648523d1c2f119730b9bda8fd544c/screenshot/firstpage.png?raw=true)
+
 ✅ Requirements
 C/C++ Compiler (g++, clang, or MSVC)
 
