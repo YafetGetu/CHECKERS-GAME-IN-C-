@@ -1,6 +1,20 @@
 # ♟️ Checker Game
 
-A sleek and simple terminal-based **Checker Game** built with C/C++. This project demonstrates core game logic, basic file handling for saving/loading, and uses a custom build system via `Makefile`.
+A sleek and simple terminal-based **Checker Game** built with C/C++. This project demonstrates core game logic, file handling for saving/loading, and uses a custom build system via `Makefile`.
+
+---
+
+## ✨ Features
+
+- ✅ **Turn-Based Gameplay** – Two-player local mode, taking turns.
+- 🧠 **Valid Move Detection** – Prevents illegal moves and enforces game rules.
+- 💾 **Auto Save & Resume** – Game progress is saved to `saved_game.txt`.
+- 🔄 **Replay Support** – Resume your game anytime from the last saved state.
+- ❌ **Piece Capture Logic** – Supports standard checker jump captures.
+- 🎯 **Win Condition Handling** – Game ends when one player has no moves left.
+- ⌨️ **Keyboard Controls** – Navigate and play entirely from your terminal.
+- ⚙️ **Makefile Powered Build** – Clean and simple builds with `make`.
+- 🧱 **Modular Codebase** – Clean project structure with `src`, `include`, and `lib`.
 
 ---
 
@@ -39,6 +53,6 @@ make
 Run the game:
 
 ./build/Game.exe   # Windows
-# OR
+OR
 ./build/Game       # Linux/macOS
 
