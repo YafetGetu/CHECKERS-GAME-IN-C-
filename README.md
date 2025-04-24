@@ -1,6 +1,9 @@
 # ♟️ Checker Game
 
-A sleek and simple terminal-based **Checker Game** built with C/C++. This project demonstrates core game logic, file handling for saving/loading, and uses a custom build system via `Makefile`.
+A sleek and simple terminal-based **Checker Game** built with C/C++. 
+![C++](https://img.shields.io/badge/language-C++-blue.svg)
+
+This project demonstrates core game logic, file handling for saving/loading, and uses a custom build system via `Makefile`.
 
 ---
 
