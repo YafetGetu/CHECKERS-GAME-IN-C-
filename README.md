@@ -17,7 +17,9 @@ A sleek and simple terminal-based **Checker Game** built with C/C++. This projec
 - 🧱 **Modular Codebase** – Clean project structure with `src`, `include`, and `lib`.
 
 ---
-![image alt](https://github.com/YafetGetu/CHECKERS-GAME-IN-CPP/blob/b622c7316501c0402bfbe6207a4d2dba2aadfefb/screenshot/new_game.png?raw=true)
+
+![New Game Screen](https://github.com/YafetGetu/CHECKERS-GAME-IN-CPP/blob/b622c7316501c0402bfbe6207a4d2dba2aadfefb/screenshot/new_game.png?raw=true)
+
 
 ## 📁 Project Structure
 
