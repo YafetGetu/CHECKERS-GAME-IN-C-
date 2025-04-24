@@ -22,8 +22,9 @@ A simple yet functional Checkers (Dama) game built using **C++** and the **Rayli
 ```bash
 ./build.bat
 
-Manual compile command
-g++ src\main.cpp -o build\Game.exe -O2 -Wall -Wno-missing-braces -I include -L lib -lraylib -lopengl32 -lgdi32 -lwinmm
+### 🔹 Option 2: Manual compile command
+
+g++ src\main.cpp -o build\Game.exe -O2 -Wall -Wno-missing-braces -I include -L lib -lraylib -lopengl32 -
 
 After building, run:
 
