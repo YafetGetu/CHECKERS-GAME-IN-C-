@@ -46,7 +46,7 @@ Terminal or Command Prompt
 🛠️ Build Instructions
 Clone and build the project:
 
-git clone https://github.com/your-username/checker_game.git
+git clone  https://github.com/YafetGetu/CHECKERS-GAME-IN-C-.git
 cd checker_game
 make
 
