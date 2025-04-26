@@ -14,8 +14,6 @@ This project demonstrates core game logic, file handling for saving/loading, and
 - 💾 **Auto Save & Resume** – Game progress is saved to `saved_game.txt`.
 - 🔄 **Replay Support** – Resume your game anytime from the last saved state.
 - ❌ **Piece Capture Logic** – Supports standard checker jump captures.
-- 🎯 **Win Condition Handling** – Game ends when one player has no moves left.
-- ⌨️ **Keyboard Controls** – Navigate and play entirely from your terminal.
 - ⚙️ **Makefile Powered Build** – Clean and simple builds with `make`.
 - 🧱 **Modular Codebase** – Clean project structure with `src`, `include`, and `lib`.
 
