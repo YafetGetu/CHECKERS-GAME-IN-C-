@@ -58,6 +58,7 @@ cd checker_game
 make
 
 Run the game:
+Add the two player name so you can see it in the interface
 
 ./build/Game.exe   # Windows
 OR
