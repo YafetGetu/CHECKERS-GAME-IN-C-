@@ -12,7 +12,7 @@ This project demonstrates core game logic, file handling for saving/loading, and
 - ✅ **Turn-Based Gameplay** – Two-player local mode, taking turns.
 - 🧠 **Valid Move Detection** – Prevents illegal moves and enforces game rules.
 - 💾 **Auto Save & Resume** – Game progress is saved to `saved_game.txt`.
-- 🔄 **Replay Support** – Resume your game anytime from the last saved state.
+- 🔄 **Replay Support** – Resume your game anytime from the last saved state. 
 - ❌ **Piece Capture Logic** – Supports standard checker jump captures.
 - ⚙️ **Makefile Powered Build** – Clean and simple builds with `make`.
 - 🧱 **Modular Codebase** – Clean project structure with `src`, `include`, and `lib`.
